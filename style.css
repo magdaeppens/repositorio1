@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(14, 13, 13);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: black; /* Cambia el color de fondo aquí */
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.685);
+}
+
+h1 {
+    color: rgb(196, 196, 196);
+    font-family: "Roboto", sans-serif;
+    font-weight: 140; /* Ajusta el grosor de la fuente a "Thin" */
+}
+
+h2 {
+    color: rgb(196, 196, 196);
+    font-family: "Roboto", sans-serif;
+    font-weight: 100; /* Ajusta el grosor de la fuente a "Thin" */
+    font-size: 12px;
+}
+
+h3 {
+    color:rgb(196, 196, 196);
+    font-family: "Roboto", sans-serif;
+    margin: 10px;
+}
+
+p { 
+    color:rgb(196, 196, 196);
+    font-family: "Roboto", sans-serif;
+}
+
+footer {
+    position: sticky;
+    top: 0;
+    background-color: rgb; /* Cambia el color de fondo aquí */
+    padding: 10px;
+}
+
+
