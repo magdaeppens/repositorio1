@@ -5,22 +5,38 @@ body {
 header {
     position: sticky;
     top: 0;
-    background-color: black; /* Cambia el color de fondo aquí */
+    background-color: black; 
     color: white;
     padding: 10px;
     border-bottom: 2px solid rgba(255, 0, 0, 0.685);
 }
 
+.navbar {
+    background-color: black !important;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.navbar a {
+    color: white !important; 
+}
+
+.navbar-nav li {
+    margin-right: 120px; 
+} 
+
+
 h1 {
     color: rgb(196, 196, 196);
     font-family: "Roboto", sans-serif;
-    font-weight: 140; /* Ajusta el grosor de la fuente a "Thin" */
+    font-weight: 140; 
+    margin-top: 20px; 
 }
 
 h2 {
     color: rgb(196, 196, 196);
     font-family: "Roboto", sans-serif;
-    font-weight: 100; /* Ajusta el grosor de la fuente a "Thin" */
+    font-weight: 100; 
     font-size: 12px;
 }
 
@@ -30,16 +46,26 @@ h3 {
     margin: 10px;
 }
 
-p { 
-    color:rgb(196, 196, 196);
-    font-family: "Roboto", sans-serif;
-}
-
 footer {
     position: sticky;
     top: 0;
-    background-color: rgb; /* Cambia el color de fondo aquí */
+    background-color: rgb; 
     padding: 10px;
 }
+
+.content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.content img {
+    margin: 0; 
+    width: 33.33%; 
+    height: 100vh; 
+}
+
+
+
+
 
 

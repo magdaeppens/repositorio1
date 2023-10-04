@@ -1,18 +1,19 @@
-<<<<<<< HEAD
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">    
+
     <style>
-        /* Add custom CSS styles here */
         .content {
             display: flex;
             align-items: center;
         }
-
         .content img {
-            margin-right: 20px; /* Add some spacing between the image and text */
+            margin-right: 20px; 
         }
     </style>
 </head>
@@ -20,28 +21,78 @@
 <body>
 
     <header>
-        <h1 style="text-align: center;">SUSHI</h1>
+        <h1 style="text-align: center;">DASHI</h1>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Locales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pedi Online</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                </ul>
+                </span>
+              </div>
+            </div>
+          </nav>       
+
     </header>
 
     <main>
         <div class="content">
-            <img src="Sushi1.jpg">
-            <p style="font-family: 'Lorem Ipsum', sans-serif; font-size: 16px; line-height: 1.5;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
-            </p>
-            
+            <img src="Sushi1.jpg">   
+            <img src="sushi2.jpg">
+            <img src="sushi3.jpg">   
         </div>
     </main>
 
     <footer>
         <div>
-            <img src="instagram.png" style="float: left; width: 35px; height: auto; margin-right: 10px;">
-            <img src="gmail.webp" style="float: left; width: 35px; height: auto; margin-right: 10px;">
+            <a href="https://www.instagram.com/dashisushi/">
+                <img id="instagram-logo" src="instagram.png" style="float: left; width: 35px; height: auto; margin-right: 10px;"
+                    onmouseover="zoomIn('instagram-logo')" onmouseout="zoomOut('instagram-logo')">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5491159931908&text=Haga%20su%20pedido%20por%20whatsapp">
+                <img id="whatsapp-logo" src="wpp.webp" style="float: left; width: 35px; height: auto; margin-right: 10px;"
+                    onmouseover="zoomIn('whatsapp-logo')" onmouseout="zoomOut('whatsapp-logo')">
+            </a>
             <p style="text-align: right; font-size: 10px; margin-top: 30px !important;">
                 DIRECCIÓN DEL NEGOCIO: inventar algo. <br> NUMERO DE TELÉFONO: inventar algo.
             </p>
         </div>
-    </footer>    
+    
+        <script>
+            function zoomIn(elementId) {
+                var element = document.getElementById(elementId);
+                element.style.transform = "scale(1.2)";
+            }
+    
+            function zoomOut(elementId) {
+                var element = document.getElementById(elementId);
+                element.style.transform = "scale(1)";
+            }
+        </script>
+    </footer>
+    
+
+
+    </footer>
 
 </body>
 
