@@ -13,8 +13,10 @@
         margin: 0; 
         width: 100%; 
         height: auto; 
+        display: block; 
     }
 }
+
 
 body {
     background-color: rgb(14, 13, 13);
