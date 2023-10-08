@@ -1,0 +1,58 @@
+main {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(14, 13, 13);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: black; 
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.685);
+    z-index: 2;
+}
+
+main {
+    z-index: 1;
+}
+
+
+h1 {
+    color: rgb(196, 196, 196);
+    font-family: "Roboto", sans-serif;
+    font-weight: 140; 
+    margin-top: 20px; 
+}
+
+#fotos {
+    float: left;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+}
+
+#textoDerecha {
+    float: right;
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 85%;
+    transform: translateY(-50%);
+    margin-left: 52%; 
+    margin-right: 5%; 
+    border-right: 40px solid rgb(14, 13, 13); 
+    color: rgb(196, 196, 196);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+}

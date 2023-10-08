@@ -1,3 +1,21 @@
+/* PARA LA COMPUTADORA */
+@media (min-width: 768px) {
+    .content img {
+        margin: 0; 
+        width: 33.33%; 
+        height: 100vh; 
+    }
+}
+
+/* PARA LOS TELEFONOS */
+@media (max-width: 375px) {
+    .content img {
+        margin: 0; 
+        width: 100%; 
+        height: auto; 
+    }
+}
+
 body {
     background-color: rgb(14, 13, 13);
 }
