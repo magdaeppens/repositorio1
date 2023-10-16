@@ -31,6 +31,13 @@ header {
     border-bottom: 2px solid rgba(255, 0, 0, 0.685);
 }
 
+footer {
+    position: sticky;
+    top: 0;
+    background-color: rgb; 
+    padding: 10px;
+}
+
 .navbar {
     background-color: black !important;
     text-align: center;
@@ -66,12 +73,6 @@ h3 {
     margin: 10px;
 }
 
-footer {
-    position: sticky;
-    top: 0;
-    background-color: rgb; 
-    padding: 10px;
-}
 
 .content {
     display: flex;
