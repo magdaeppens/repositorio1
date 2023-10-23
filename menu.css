@@ -1,0 +1,105 @@
+@media screen and  (max-width: 767px) {
+    #logos  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    #productos1, #productos2, #productos3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    }
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.685);
+    z-index: 2;
+}
+
+main {
+    z-index: 1;
+}
+
+.navbar {
+    background-color: black !important;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.navbar a {
+    color: white !important; 
+}
+
+.navbar-nav li {
+    margin-right: 120px; 
+} 
+
+
+header h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(196, 196, 196);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400; 
+    margin-top: 20px;
+}
+
+h2 {
+    color: rgb(196, 196, 196);
+    font-family: "Roboto", sans-serif;
+    font-weight: 100; 
+    font-size: 12px;
+}
+
+#sushi_salad {
+    text-align: center;
+    font-size: 15px;
+}
+
+#sashimi {
+    text-align: center;
+    font-size: 15px;
+}
+
+#nigiris {
+    text-align: center;
+    font-size: 15px;
+}
+
+.card {
+    width: 200px; /* Ancho reducido a la mitad con un pequeño espacio entre las tarjetas */
+    margin-right: 3px; /* Espacio entre las tarjetas (horizontal) */
+    margin-bottom: 30px; /* Espacio entre las filas de tarjetas (vertical) */
+    background-color: black;
+}
+
+.card-img-top {
+    max-width: 100%; /* Para asegurarse de que la imagen no se desborde de la tarjeta */
+}
+
+.card-title {
+    text-align: center; 
+}
+
+.list-group-item {
+    background-color: rgb(196, 196, 196);
+    color: white; 
+    text-align: center;
+}

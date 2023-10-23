@@ -20,6 +20,20 @@ main {
     z-index: 1;
 }
 
+.navbar {
+    background-color: black !important;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.navbar a {
+    color: white !important; 
+}
+
+.navbar-nav li {
+    margin-right: 120px; 
+} 
+
 
 h1 {
     color: rgb(196, 196, 196);
