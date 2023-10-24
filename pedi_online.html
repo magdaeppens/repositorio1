@@ -57,32 +57,32 @@
     </header>
 
     <main>
-        <div align="center">
-            <div class="para_completar">
-                <label for="apellido">Apellido</label>
-                <input type="text" id="apellido" name="visitor_apellido" placeholder="Apellido:" pattern="[A-Z\sa-z]{3,20}" required>
-            </div>
-            
-            <div class="elem-group">
-                <label for="direccion">Dirección</label>
-                <input type="text" id="direccion" name="visitor_direccion" placeholder="Dirección:" pattern="[A-Za-z0-9\s]{3,50}" required>
-            </div>
-            
-            <div class="elem-group">
-                <label for="telefono">Teléfono</label>
-                <input type="tel" id="telefono" name="visitor_telefono" placeholder="Teléfono:" pattern="[0-9]{7,15}" required>
-            </div>
-            
-            <div class="elem-group">
-                <label for="mail">Correo Electrónico</label>
-                <input type="email" id="mail" name="visitor_mail" placeholder="Correo Electrónico:" required>
-            </div>
-            
-            <div class="elem-group">
-                <label for="pedido">Pedido</label>
-                <textarea id="pedido" name="visitor_pedido" placeholder="Pedido:" required></textarea>
-            </div>            
-        </div>
+<!-- Formulario con etiquetas para ingresar datos -->
+
+        <form action="" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <p></p>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido">
+            <p></p>
+            <label for="telefono">Número de telefono</label>
+            <input type="int" name="telefono" id="telefono">
+            <p></p>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" id="email">
+            <p></p>
+            <label for="direccion">Dirección:</label>
+            <input type="direccion" name="direccion" id="direccion">
+            <p></p>
+            <label for="pedido">¿Quiere retirar el pedido o delivery?:</label>
+            <select name="pedido" id="pedido">
+                <option value="Retiro">Retiro</option>
+                <option value="Delivery">Delivery</option>
+            </select>
+            <p></p>
+            <input type="button" value="Iniciar pedido">
+        </form>
     </main>
 
 </body>

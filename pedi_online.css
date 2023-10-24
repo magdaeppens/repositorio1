@@ -41,15 +41,50 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: black;
-    color: white;
+    color: rgb(196, 196, 196);
     padding: 10px;
 }
 
-#para_completar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+/* Estilos para el formulario */
+form {
+    background-color: black;
+    padding: 20px;
+    border: 2px solid rgba(255, 0, 0, 0.685); /* Agregar un borde rojo de 2 píxeles */
     text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 5px; /* Agregar bordes redondeados para suavizar la apariencia */
+}
+
+
+/* Estilos para los campos del formulario */
+form label {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: rgb(196, 196, 196);
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="email"],
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+/* Estilo para el botón del formulario */
+form input[type="button"] {
+    background-color: rgb(196, 196, 196);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
 }

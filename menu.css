@@ -4,13 +4,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 8px;
     }
     #productos1, #productos2, #productos3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    font-size: 10px;
+    }
+    .card-title {
+        font-size: 10px; 
     }
 }
 
@@ -70,23 +74,23 @@ h2 {
 
 #sushi_salad {
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
 }
 
 #sashimi {
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
 }
 
 #nigiris {
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
 }
 
 .card {
-    width: 200px; /* Ancho reducido a la mitad con un pequeño espacio entre las tarjetas */
-    margin-right: 3px; /* Espacio entre las tarjetas (horizontal) */
-    margin-bottom: 30px; /* Espacio entre las filas de tarjetas (vertical) */
     background-color: black;
 }
 
@@ -96,6 +100,7 @@ h2 {
 
 .card-title {
     text-align: center; 
+    font-family: "Roboto", sans-serif;
 }
 
 .list-group-item {
