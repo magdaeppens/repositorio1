@@ -1,7 +1,7 @@
 body {
     background-color: black;
     margin: 0;
-    color: white; /* Agregar color de texto predeterminado para todo el cuerpo */
+    color: white; 
 }
 
 header {
@@ -11,9 +11,16 @@ header {
     border-bottom: 2px solid rgba(255, 0, 0, 0.685);
 }
 
+h1 {
+    color: rgb(196, 196, 196);
+    font-family: "Roboto", sans-serif;
+    font-weight: 350;
+    text-align: center;
+}
+
 main {
     padding: 20px;
-    color: white; /* Agregar color de texto predeterminado para el contenido principal */
+    color: white; 
 }
 
 .navbar {
@@ -30,34 +37,17 @@ main {
     margin-right: 120px;
 }
 
-h1 {
-    color: rgb(196, 196, 196);
-    font-family: "Roboto", sans-serif;
-    font-weight: 400; /* Cambiar el valor de font-weight a un valor común */
-}
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: rgb(196, 196, 196);
-    padding: 10px;
-}
-
-/* Estilos para el formulario */
 form {
     background-color: black;
     padding: 20px;
-    border: 2px solid rgba(255, 0, 0, 0.685); /* Agregar un borde rojo de 2 píxeles */
+    border: 2px solid rgba(255, 0, 0, 0.685); 
     text-align: center;
     max-width: 400px;
     margin: 0 auto;
-    border-radius: 5px; /* Agregar bordes redondeados para suavizar la apariencia */
+    border-radius: 5px; 
 }
 
-
-/* Estilos para los campos del formulario */
 form label {
     display: block;
     font-family: "Roboto", sans-serif;
@@ -78,7 +68,6 @@ form select {
     font-size: 10px;
 }
 
-/* Estilo para el botón del formulario */
 form input[type="button"] {
     background-color: rgb(196, 196, 196);
     color: black;
@@ -87,4 +76,10 @@ form input[type="button"] {
     border-radius: 5px;
     cursor: pointer;
     font-size: 12px;
+}
+
+#mensajeTelefono {
+    color: red; 
+    font-size: 14px; 
+    margin-top: 5px; 
 }

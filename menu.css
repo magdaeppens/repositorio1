@@ -1,18 +1,15 @@
-@media screen and  (max-width: 767px) {
-    #logos  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 8px;
+@media screen and (max-width: 767px) {
+    #logos,
+    #productos1,
+    #productos2,
+    #productos3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
     }
-    #productos1, #productos2, #productos3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
-    }
+
     .card-title {
         font-size: 10px; 
     }
@@ -44,12 +41,6 @@ main {
 
 .navbar-nav li {
     margin-right: 120px; 
-} 
-
-
-header h1 {
-    text-align: center;
-    font-size: 30px;
 }
 
 body {
@@ -63,6 +54,7 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 400; 
     margin-top: 20px;
+    text-align: center;
 }
 
 h2 {
@@ -72,18 +64,8 @@ h2 {
     font-size: 12px;
 }
 
-#sushi_salad {
-    text-align: center;
-    font-size: 12px;
-    font-family: "Roboto", sans-serif;
-}
-
-#sashimi {
-    text-align: center;
-    font-size: 12px;
-    font-family: "Roboto", sans-serif;
-}
-
+#sushi_salad,
+#sashimi,
 #nigiris {
     text-align: center;
     font-size: 12px;
@@ -92,10 +74,13 @@ h2 {
 
 .card {
     background-color: black;
+    width: calc(20% - 15px);
+    margin-inline: 80px;
+    margin-bottom: 20px;
 }
 
 .card-img-top {
-    max-width: 100%; /* Para asegurarse de que la imagen no se desborde de la tarjeta */
+    max-width: 100%;
 }
 
 .card-title {
@@ -107,4 +92,21 @@ h2 {
     background-color: rgb(196, 196, 196);
     color: white; 
     text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    margin-right: 20px;
+}
+
+.productos1,
+.productos2,
+.productos3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

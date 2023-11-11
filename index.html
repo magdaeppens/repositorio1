@@ -6,23 +6,13 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">    
-
-    <style>
-        .content {
-            display: flex;
-            align-items: center;
-        }
-        .content img {
-            margin-right: 20px; 
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="java1.js"></script>  
 </head>
 
 <body>
     <header>
-        <h1 style="text-align: center;">DASHI</h1>
-
+        <h1>DASHI</h1>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,30 +56,16 @@
     <footer>
         <div class="footer">
             <a href="https://www.instagram.com/dashisushi/">
-                <img id="instagram-logo" src="Fotos/ig1.webp" style="float: left; width: 35px; height: auto; margin-right: 10px;"
+                <img id="instagram-logo" src="Fotos/ig1.webp";
                     onmouseover="zoomIn('instagram-logo')" onmouseout="zoomOut('instagram-logo')">
             </a>
             <a href="https://api.whatsapp.com/send?phone=5491159931908&text=Haga%20su%20pedido%20por%20whatsapp">
-                <img id="whatsapp-logo" src="Fotos/wpp.png" style="float: left; width: 35px; height: auto; margin-right: 10px;"
+                <img id="whatsapp-logo" src="Fotos/wpp.png";
                     onmouseover="zoomIn('whatsapp-logo')" onmouseout="zoomOut('whatsapp-logo')">
             </a>
-            <p style="text-align: center; font-size: 12px; margin-top: 30px !important; color: rgb(196, 196, 196)">
-                Dashi Buenos Aires - Argentina
-            </p>
+            <p> Dashi Buenos Aires - Argentina </p>
         </div>
     </footer>
-
-    <script>
-        function zoomIn(elementId) {
-            var element = document.getElementById(elementId);
-            element.style.transform = "scale(1.2)";
-        }
-
-        function zoomOut(elementId) {
-            var element = document.getElementById(elementId);
-            element.style.transform = "scale(1.0)"; 
-        }
-    </script>
 
 </body>
 

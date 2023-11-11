@@ -40,6 +40,7 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 140; 
     margin-top: 20px; 
+    text-align: center;
 }
 
 #fotos {
@@ -69,4 +70,9 @@ h1 {
 .content {
     display: flex;
     flex-grow: 1;
+    align-items: center;
+}
+
+.content img {
+    margin-right: 20px; 
 }
