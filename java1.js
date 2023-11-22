@@ -74,3 +74,7 @@ function cancelarPedidos() {
 function pagar() {
     window.location.href = "pagar.html";
 }
+
+function pedidoRealizado() {
+    alert("Pedido realizado con éxito");
+}
