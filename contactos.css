@@ -19,21 +19,30 @@ main {
     background-color: black !important;
     text-align: center;
     margin-left: 35px;
+    font-size: 15px;
 }
 
 .navbar a {
-    color: white !important;
+    color: white !important; 
 }
 
 .navbar-nav li {
-    margin-right: 120px;
+    margin-right: 120px; 
+} 
+
+
+header h1 {
+    text-align: center;
+    font-size: 30px;
 }
 
 h1 {
     color: rgb(196, 196, 196);
     font-family: "Roboto", sans-serif;
-    font-weight: 140;
+    font-weight: 140; 
+    margin-top: 20px; 
     text-align: center;
+    font-size: 25;
 }
 
 footer {
@@ -90,4 +99,3 @@ img {
     max-width: 100%;
     height: auto;
 }
-

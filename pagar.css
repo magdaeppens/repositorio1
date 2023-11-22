@@ -79,9 +79,3 @@ form input[type="button"] {
     cursor: pointer;
     font-size: 12px;
 }
-
-#mensajeTelefono {
-    color: red; 
-    font-size: 14px; 
-    margin-top: 5px; 
-}

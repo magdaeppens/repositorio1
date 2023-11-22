@@ -70,3 +70,12 @@ h1 {
     display: flex;
     flex-grow: 1;
 }
+
+h1 {
+    color: rgb(196, 196, 196);
+    font-family: "Roboto", sans-serif;
+    font-weight: 140; 
+    margin-top: 20px; 
+    text-align: center;
+    font-size: 25;
+}

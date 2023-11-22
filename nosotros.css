@@ -23,6 +23,7 @@
 
 main {
     width: 100%;
+    height: 650px;
 }
 
 body {
@@ -41,6 +42,7 @@ header {
 
 main {
     z-index: 1;
+    height: 650px;
 }
 
 .navbar {
@@ -57,13 +59,13 @@ main {
     margin-right: 120px; 
 } 
 
-
 h1 {
     color: rgb(196, 196, 196);
     font-family: "Roboto", sans-serif;
     font-weight: 140; 
     margin-top: 20px; 
     text-align: center;
+    font-size: 30;
 }
 
 #carousel_fotos {

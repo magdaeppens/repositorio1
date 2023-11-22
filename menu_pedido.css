@@ -14,31 +14,40 @@ header {
     z-index: 2;
 }
 
+
 main {
     z-index: 1;
-}
-
-h1 {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    margin-top: 20px;
-    text-align: center;
 }
 
 .navbar {
     background-color: black !important;
     text-align: center;
     margin-left: 35px;
+    font-size: 15px;
 }
 
 .navbar a {
-    color: white !important;
+    color: white !important; 
 }
 
 .navbar-nav li {
-    margin-right: 120px;
+    margin-right: 120px; 
+} 
+
+
+header h1 {
+    text-align: center;
+    font-size: 30px;
 }
+
+h1 {
+    color: rgb(196, 196, 196);
+    font-family: "Roboto", sans-serif;
+    font-weight: 140; 
+    font-size: 25px; 
+    margin-bottom: 0%;
+}
+
 
 #sushi_salad,
 #sashimi,
@@ -68,11 +77,28 @@ h1 {
     font-size: 14px;
 }
 
-.list-group-item {
-    background-color: white;
+.precios .list-group-item {
+    background-color: rgb(196, 196, 196);
     color: black;
+    padding: 4px; 
+    border: none;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
+    margin: 0;
+    display: block; 
+    width: 100%; 
+}
+
+.precios .botonAgregar{
+    background-color: rgb(196 * 0.6, 196 * 0.6, 196 * 0.6);;
+    color: black;
+    padding: 4px; 
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    display: block; 
+    width: 100%; 
 }
 
 .content {
@@ -110,4 +136,70 @@ h1 {
     .card-title {
         font-size: 10px;
     }
+}
+
+
+footer {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: rgb(196, 196, 196);
+    padding: 20px;
+    border-top: 2px solid rgba(255, 0, 0, 0.685);
+    z-index: 2;
+}
+
+h3 {
+    color: rgb(196, 196, 196);
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    color: rgb(196*1.2, 196*1.2, 196*1.2);
+    text-align: center; 
+}
+
+.header-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: "Roboto", sans-serif; 
+}
+
+.carrito {
+    border: 2px solid rgba(255, 0, 0, 0.685);
+    padding: 10px;
+    text-align: center;
+    width: 400px; 
+    font-size: 12px;
+}
+
+.carrito h3 {
+    color: rgb(196, 196, 196);
+    font-size: 16px;
+}
+
+.lista-carrito {
+    list-style: none;
+    padding: 0;
+}
+
+#total-carrito {
+    font-weight: bold;
+    color: red; 
+}
+
+form input[type="button"] {
+    background-color: black;
+    color: rgb(196, 196, 196);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
 }
